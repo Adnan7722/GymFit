@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymFit</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+
+
+    }
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        display: inline-block;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .left img {
+        width: 400px;
+        border-radius: 100%;
+        ;
+    }
+
+    .left div {
+
+        text-align: center;
+        font-size: 70px;
+        color: white;
+
+
+    }
+
+    .mid {
+        position: absolute;
+        left: 1521px;
+        top: 70px;
+        /* border: 2px solid rgb(34, 2, 162); */
+
+
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 70px;
+
+        display: inline-block;
+
+        /* border: 2px solid rgb(23, 165, 56); */
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+        font-size: 50px;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(222, 167, 29);
+
+    }
+
+    .btn {
+        margin: 0px 10px;
+        color: white;
+        padding: 10px 20px;
+        background-color: transparent;
+        font-size: 50px;
+        border-radius: 20%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(222, 167, 29);
+    }
+
+    .container {
+        /* border: 10px solid rgb(9, 255, 0); */
+        
+        margin: 750px 0px;
+        padding: 100px  0px;
+        width: 50%;
+        /* border-radius: 1%; */
+        
+        
+
+
+    }
+
+    .form-group input {
+        border: 30px solid white;
+        text-align: center;
+        display: block;
+        width: 1000px;
+        padding: 0px;
+        font-size: 50px;
+        margin: 25px auto;
+        border-radius: 10%;
+
+
+
+
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 50px;
+        color: rgb(222, 167, 29);
+    }
+
+    .container button {
+        display: block;
+        text-align: center;
+        margin: auto;
+        background-color: transparent;
+    }
+</style>
+
+<body>
+    <header Class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+
+
+            <div>GymFit</div>
+
+
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li><a href="#">BMI Calculator</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+
+        <div class="right">
+
+            <button class="btn">Sign Up</button>
+            <button class="btn">Login In</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>JOIN NOW!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="nothing" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="nothing" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="nothing" placeholder="Enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="nothing" placeholder="Enter your Weight">
+
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="nothing" placeholder="Enter your Contact Number">
+
+            </div>
+
+
+
+        </form>
+        <button class="btn">Submit Now</button>
+    </div>
+
+</body>
+
+</html>
